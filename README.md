@@ -21,3 +21,25 @@ e-mails when people are more likely to read and response.
 
 ![MacDown Screenshot](https://github.com/NYU-CS6313-Fall16/Reddit-Threads-18/blob/master/screenshot.png)
 
+I support all the original Markdown syntaxes. But I can do so much more! Various popular but non-standard syntaxes can be turned on/off from the [**Markdown** preference pane](#markdown-pane).
+
+You can specify extra HTML rendering options through the [**Rendering** preference pane](#rendering-pane).
+
+You can customize the editor window to you liking in the [**Editor** preferences pane](#editor-pane):
+
+You can configure various application (that's me!) behaviors in the [**General** preference pane](#general-pane).
+
+## The techniques we used for the project
+### Techniques for parsing the data 
+* Java 
+* Hadoop Mapreduce
+
+### Techniques for visualizing the data 
+* Javascript
+* D3
+
+## Code structure 
+
+**Strong**: `**Strong**` or `__Strong__` (Command-B)  
+*Emphasize*: `*Emphasize*` or `_Emphasize_`[^emphasize] (Command-I)
+
