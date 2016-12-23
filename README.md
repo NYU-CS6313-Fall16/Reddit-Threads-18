@@ -8,26 +8,8 @@ information visualization of the E-mail thread.
 Author: Yining Shan, Yun Gao, Yue Liu, Xia Zhao  
  
 ## Description
-Our project aims to help investigators to know the habit of the user by exploring one of the
-user e-mail dataset through information virtualization tool. In this way, the investigators can
-understand the factors about when they send advertisements.
-We need to analyze different factors that influences response time. The key content is to find
-the email habit of the specific user.
-DataThe purpose of this project is to help merchant investigate user’s habit on sending and
-responding emails. In real life, commercial advertiser needs to know what is the best
-moment for them to send the advertisement to their subscribers. They want to send their
-e-mails when people are more likely to read and response.
-**MacDown** is created as a simple-to-use editor for Markdown documents. I render your Markdown contents real-time into HTML, and display them in a preview panel.
-
-![MacDown Screenshot](https://github.com/NYU-CS6313-Fall16/Reddit-Threads-18/blob/master/screenshot.png)
-
-I support all the original Markdown syntaxes. But I can do so much more! Various popular but non-standard syntaxes can be turned on/off from the [**Markdown** preference pane](#markdown-pane).
-
-You can specify extra HTML rendering options through the [**Rendering** preference pane](#rendering-pane).
-
-You can customize the editor window to you liking in the [**Editor** preferences pane](#editor-pane):
-
-You can configure various application (that's me!) behaviors in the [**General** preference pane](#general-pane).
+The purpose of our project is to help people understand the activity of email thread in a easier way because most of the unprofessional people are not very familiar with this concept. We want to extract some hidden email thread information in our given raw dataset through our visualization project. Then, people can easily figure out the information about email thread, like the number of threads with 2 people involved. The result of our project can also represent some interesting point about people’s habit using email.
+![MacDown Screenshot](https://github.com/NYU-CS6313-Fall16/Reddit-Threads-18/blob/master/screen.png)
 
 ## The techniques we used for the project
 ### Techniques for parsing the data 
@@ -39,7 +21,66 @@ You can configure various application (that's me!) behaviors in the [**General**
 * D3
 
 ## Code structure 
-
+http://macdown.uranusjr.com 
 **Strong**: `**Strong**` or `__Strong__` (Command-B)  
 *Emphasize*: `*Emphasize*` or `_Emphasize_`[^emphasize] (Command-I)
+
+### Headers (like this one!)
+
+	Header 1
+	========
+
+	Header 2
+	--------
+
+or
+
+	# Header 1
+	## Header 2
+	### Header 3
+	#### Header 4
+	##### Header 5
+	###### Header 6
+
+
+
+### Links and Email
+#### Inline
+Just put angle brackets around an email and it becomes clickable: <uranusjr@gmail.com>  
+`<uranusjr@gmail.com>`  
+
+Same thing with urls: <http://macdown.uranusjr.com>  
+` <http://macdown.uranusjr.com>`  
+
+Perhaps you want to some link text like this: [Macdown Website](http://macdown.uranusjr.com "Title")  
+`[Macdown Website](http://macdown.uranusjr.com "Title")` (The title is optional)  
+
+
+#### Reference style
+Sometimes it looks too messy to include big long urls inline, or you want to keep all your urls together.  
+
+Make [a link][arbitrary_id] `[a link][arbitrary_id]` then on it's own line anywhere else in the file:  
+`[arbitrary_id]: http://macdown.uranusjr.com "Title"`
+  
+If the link text itself would make a good id, you can link [like this][] `[like this][]`, then on it's own line anywhere else in the file:  
+`[like this]: http://macdown.uranusjr.com`  
+
+[arbitrary_id]: http://macdown.uranusjr.com "Title"
+[like this]: http://macdown.uranusjr.com  
+
+
+### Images
+#### Inline
+`![Alt Image Text](path/or/url/to.jpg "Optional Title")`
+
+
+  
+
+
+
+
+
+
+
+
 
