@@ -37,6 +37,7 @@ The purpose of our project is to help people understand the activity of email th
 ##Links 
 * Demo link: https://clementxia.github.io/InfoProject/
 * Video link: https://youtu.be/MFkdispIXSM
+* Report: https://github.com/NYU-CS6313-Fall16/Reddit-Threads-18/blob/master/Group18EmailThreadProjectReport.pdf
 
 
 
