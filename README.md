@@ -36,7 +36,7 @@ The purpose of our project is to help people understand the activity of email th
 
 ##Links 
 * Demo link: https://clementxia.github.io/InfoProject/
-* Video link:   
+* Video link: https://youtu.be/MFkdispIXSM
 
 
 
